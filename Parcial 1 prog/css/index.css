@@ -1,0 +1,62 @@
+
+/*Reinicio estilos por defecto*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*Aplico color de fondo a toda la pagina*/
+body {
+    background-color: #eee;
+    font-size:16px;
+}
+
+/*Estilos del menú horizontal*/
+
+nav {
+    display: flex;
+    background-color: salmon;
+    padding: 1em;
+    justify-content: center;
+
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    margin-left: 2em;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: black;
+    
+    transition: 0.1s ease-in-out all;
+    border-bottom: 1px solid black;
+}
+
+/*Estilos del cuerpo*/
+
+h1 {
+    margin-bottom: 0.5em;
+}
+
+#Contenedor-1 {
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+
+
+.Class-container {
+    text-align: center;
+    color: red;
+}
